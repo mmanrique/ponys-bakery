@@ -30,5 +30,3 @@ dependencies {
     //Spring boot configuration
     compile("org.springframework.boot:spring-boot-starter-web")
 }
-
-task stage(dependsOn: ['build', 'clean'])
