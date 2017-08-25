@@ -1,4 +1,4 @@
-package servlet
+package com.mmanrique.bakery.servlet
 
 import org.scalatra.ScalatraServlet
 
