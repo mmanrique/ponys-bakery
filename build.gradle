@@ -20,4 +20,4 @@ dependencies {
     compile 'org.scalatra:scalatra_2.12:2.5.1'
 }
 
-task stage(dependsOn: ['appRun', 'clean' ])
+task stage(dependsOn: ['build', 'clean' ])
