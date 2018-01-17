@@ -27,7 +27,6 @@ dependencies {
     compile 'org.scala-lang:scala-library:2.12.3'
     compile 'org.scalatra:scalatra_2.12:2.5.1'
     compile 'org.scalatra:scalatra-scalate_2.12:2.5.1'
-    compile 'org.scalatra.scalate:scalate-core_2.12:1.8.0'
     //Spring boot configuration
     compile("org.springframework.boot:spring-boot-starter-web")
 }
