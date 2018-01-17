@@ -12,8 +12,8 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'scala'
 apply plugin: 'war'
-apply plugin: 'org.springframework.boot'
 apply from: 'webapp.gradle'
+apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'ponys-bakery'
@@ -29,7 +29,6 @@ dependencies {
     compile 'org.scala-lang:scala-library:2.12.3'
     compile 'org.scalatra:scalatra_2.12:2.5.1'
     compile 'org.scalatra:scalatra-scalate_2.12:2.5.1'
-    compile 'org.scala-lang:scala-compiler:2.12.3'
     //Spring boot configuration
     compile("org.springframework.boot:spring-boot-starter-web")
 }
